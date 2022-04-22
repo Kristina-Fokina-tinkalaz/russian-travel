@@ -1,0 +1,32 @@
+.cover__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 32px 0 245px 0;
+    margin:0 auto;
+    max-width:360px;
+    position: relative;
+    z-index: 1;
+    display:block;
+    text-decoration: none;
+}
+.cover__subtitle:hover .cover__overlay{
+    opacity: 0.8;
+}
+@media screen and (max-width:1279px) {
+    .cover__subtitle{
+        padding: 32px 0 195px 0;
+    }
+}
+@media screen and (max-width:1023px) {
+    .cover__subtitle{
+        padding: 32px 0 115px 0;
+    }
+}
+@media screen and (max-width:767px) {
+    .cover__subtitle{
+        padding: 16px 0 33px 0;
+    }
+}
