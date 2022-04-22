@@ -10,13 +10,11 @@
 }
 @media screen and (max-width:1023px) {
     .places{
-        
         margin:0 24px 18px 24px;
     } 
 }
 @media screen and (max-width:767px) {
     .places{
-       
         margin:0 0 16px 0;
     } 
 }
