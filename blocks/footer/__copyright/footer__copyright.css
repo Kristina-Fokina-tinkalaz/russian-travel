@@ -12,6 +12,7 @@
     .footer__copyright{
         position: static;
         padding-top: 16px;
+        line-height: 1;
         text-align: start;
     }
     }

@@ -6,6 +6,10 @@
     padding: 0;
     text-decoration: none;
 }
+.header__lang-link:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 @media screen and (max-width:767px) {
     .header__lang-link{

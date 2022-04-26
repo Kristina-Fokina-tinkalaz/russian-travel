@@ -12,9 +12,7 @@
     display:block;
     text-decoration: none;
 }
-.cover__subtitle:hover .cover__overlay{
-    opacity: 0.8;
-}
+
 @media screen and (max-width:1279px) {
     .cover__subtitle{
         padding: 32px 0 195px 0;
@@ -28,5 +26,6 @@
 @media screen and (max-width:767px) {
     .cover__subtitle{
         padding: 16px 0 33px 0;
+        font-size: 14px;
     }
 }
