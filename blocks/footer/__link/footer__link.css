@@ -1,4 +1,4 @@
-.footer__nav_link{
+.footer__link{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.12;
@@ -7,13 +7,13 @@
     padding-bottom: 32px;
     color:#FFF;
 }
-.footer__nav_link:hover{
+.footer__link:hover{
     opacity: 0.8;
     cursor: pointer;
     text-decoration: underline;
 }
 @media screen and (max-width:767px) {
-    .footer__nav_link{
+    .footer__link{
         display:block;
         font-size: 24px;
         line-height: 1;
